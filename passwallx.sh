@@ -12,7 +12,7 @@ echo "Running as root..."
 sleep 2
 clear
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='Asia/Ho Chi Minh'
 
 uci set system.@system[0].timezone='<+0330>-3:30'
 
@@ -27,11 +27,11 @@ cp passwallx.sh /sbin/passwall
 . /etc/openwrt_release
 
 echo -e "${YELLOW} 
- _____ _____ _____ _____ _ _ _ _____ __    __    
-|  _  |  _  |   __|   __| | | |  _  |  |  |  |   
-|   __|     |__   |__   | | | |     |  |__|  |__ 
-|__|  |__|__|_____|_____|_____|__|__|_____|_____|
-                                                
+o   o o--o       o-o   o-o   o-o   o-o  
+|   | |   |     |   | |   | o   o |     
+o   o O--o       o-o   o-o  |   |  o-o  
+ \ /  |         |   | |   | o   o     | 
+  o   o          o-o   o-o   o-o  o--o   
 ${NC}"
 EPOL=`cat /tmp/sysinfo/model`
 echo " - Model : $EPOL"
