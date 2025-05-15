@@ -111,7 +111,7 @@ o   o o--o       o-o   o-o   o-o   o-o
 o   o O--o       o-o   o-o  |   |  o-o  
  \ /  |         |   | |   | o   o     | 
   o   o          o-o   o-o   o-o  o--o                                                                                                
-telegram : @AmirHosseinTSL" >> /etc/banner
+Mobile : 0877263263" >> /etc/banner
 
 sleep 1
 
