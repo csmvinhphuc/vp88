@@ -228,7 +228,7 @@ uci commit passwall2
 
 uci commit system
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=VP-88OS
 
 uci commit system
 
