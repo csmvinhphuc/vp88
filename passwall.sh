@@ -181,7 +181,7 @@ else
   echo "Stage 1 Passed"
 fi
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_ip
+wget https://raw.githubusercontent.com/csmvinhphuc/vp88/refs/heads/main/direct_ip
 
 sleep 3
 
@@ -197,7 +197,7 @@ else
 
 fi
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_host
+wget https://raw.githubusercontent.com/csmvinhphuc/vp88/refs/heads/main/direct_host
 
 RESULT=`ls direct_ip`
             if [ "$RESULT" == "direct_ip" ]; then
