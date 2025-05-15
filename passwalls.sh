@@ -16,7 +16,7 @@ echo "Running as root..."
 sleep 2
 clear
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='Asia/Ho Chi Minh'
 
 uci set network.wan.peerdns="0"
 
@@ -225,7 +225,7 @@ uci set passwall2.myshunt.Direct='_direct'
 
 uci commit passwall2
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='Asia/Ho Chi Minh'
 
 uci set system.@system[0].timezone='<+0330>-3:30'
 
