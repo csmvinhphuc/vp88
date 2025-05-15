@@ -105,18 +105,12 @@ sleep 2
 
 >/etc/banner
 
-echo "                                                                                           
-8b           d8  88888888ba      ad88888ba    ad88888ba     ,ad8888ba,     ad88888ba   
-`8b         d8'  88      "8b    d8"     "8b  d8"     "8b   d8"'    `"8b   d8"     "8b  
- `8b       d8'   88      ,8P    Y8a     a8P  Y8a     a8P  d8'        `8b  Y8,          
-  `8b     d8'    88aaaaaa8P'     "Y8aaa8P"    "Y8aaa8P"   88          88  `Y8aaaaa,    
-   `8b   d8'     88""""""'       ,d8"""8b,    ,d8"""8b,   88          88    `"""""8b,  
-    `8b d8'      88             d8"     "8b  d8"     "8b  Y8,        ,8P          `8b  
-     `888'       88             Y8a     a8P  Y8a     a8P   Y8a.    .a8P   Y8a     a8P  
-      `8'        88              "Y88888P"    "Y88888P"     `"Y8888Y"'     "Y88888P"   
-                                                                                       
-                                                                                                                                                                                      
-Mobile : 0969902678" >> /etc/banner
+echo "    ___    __  ___________  __  ______  __________ ___________   __
+   /   |  /  |/  /  _/ __ \/ / / / __ \/ ___/ ___// ____/  _/ | / /
+  / /| | / /|_/ // // /_/ / /_/ / / / /\__ \\__ \ / __/  / //  |/ /
+ / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
+/_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                
+telegram : @AmirHosseinTSL" >> /etc/banner
 
 sleep 1
 
@@ -233,13 +227,13 @@ rm -f amirhossein.sh && wget https://raw.githubusercontent.com/amirhosseinchogha
 
 fi
 
-uci set system.@system[0].zonename='Asia/Ho Chi Minh'
+uci set system.@system[0].zonename='Asia/Tehran'
 
 uci set system.@system[0].timezone='<+0330>-3:30'
 
 uci commit system
 
-uci set system.@system[0].hostname=VP-88OS
+uci set system.@system[0].hostname=By-AmirHossein
 
 uci commit system
 

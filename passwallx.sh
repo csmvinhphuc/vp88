@@ -27,17 +27,11 @@ cp passwallx.sh /sbin/passwall
 . /etc/openwrt_release
 
 echo -e "${YELLOW} 
-                                                                                       
-8b           d8  88888888ba      ad88888ba    ad88888ba     ,ad8888ba,     ad88888ba   
-`8b         d8'  88      "8b    d8"     "8b  d8"     "8b   d8"'    `"8b   d8"     "8b  
- `8b       d8'   88      ,8P    Y8a     a8P  Y8a     a8P  d8'        `8b  Y8,          
-  `8b     d8'    88aaaaaa8P'     "Y8aaa8P"    "Y8aaa8P"   88          88  `Y8aaaaa,    
-   `8b   d8'     88""""""'       ,d8"""8b,    ,d8"""8b,   88          88    `"""""8b,  
-    `8b d8'      88             d8"     "8b  d8"     "8b  Y8,        ,8P          `8b  
-     `888'       88             Y8a     a8P  Y8a     a8P   Y8a.    .a8P   Y8a     a8P  
-      `8'        88              "Y88888P"    "Y88888P"     `"Y8888Y"'     "Y88888P"   
-                                                                                       
-                                                                                       
+ _____ _____ _____ _____ _ _ _ _____ __    __    
+|  _  |  _  |   __|   __| | | |  _  |  |  |  |   
+|   __|     |__   |__   | | | |     |  |__|  |__ 
+|__|  |__|__|_____|_____|_____|__|__|_____|_____|
+                                                
 ${NC}"
 EPOL=`cat /tmp/sysinfo/model`
 echo " - Model : $EPOL"
