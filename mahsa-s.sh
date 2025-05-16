@@ -16,7 +16,7 @@ echo "Running as root..."
 sleep 2
 clear
 
-uci set system.@system[0].zonename='Asia/Tehran'
+uci set system.@system[0].zonename='Asia/Ho Chi Minh'
 
 uci set network.wan.peerdns="0"
 
