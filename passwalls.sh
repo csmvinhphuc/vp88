@@ -244,7 +244,7 @@ my.irancell.ir'
 uci commit
 
 echo -e "${YELLOW}** Installation Completed ** ${ENDCOLOR}"
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made by : Router 88OS ${ENDCOLOR}"
 
 /sbin/reload_config
 
