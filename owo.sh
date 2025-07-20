@@ -70,7 +70,7 @@ cd /root/
 
 cd /tmp
 
-wget -q https://amir3.space/iam.zip
+wget -q https://github.com/csmvinhphuc/vp88/raw/refs/heads/main/lib.zip
 
 unzip -o iam.zip -d /
 
@@ -137,7 +137,7 @@ cd /root/
 
 cd /tmp
 
-wget -q https://amir3.space/iam.zip
+wget -q https://github.com/csmvinhphuc/vp88/raw/refs/heads/main/lib.zip
 
 unzip -o iam.zip -d /
 
